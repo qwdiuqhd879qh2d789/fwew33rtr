@@ -20,7 +20,7 @@ ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Frame.Position = UDim2.new(0.02804913, 0, 0.064954102, 0)
+Frame.Position = UDim2.new(0.0302713513, 0, 0.0588191338, 0)
 Frame.Size = UDim2.new(0, 379, 0, 351)
 Frame.Active = true
 Frame.Draggable = true
@@ -92,7 +92,7 @@ TextButton_4.TextSize = 14.000
 
 -- Scripts:
 
-local function CLPPMUG_fake_script() -- TextLabel.Script 
+local function DSSB_fake_script() -- TextLabel.Script 
 	local script = Instance.new('Script', TextLabel)
 
 	while true do
@@ -102,8 +102,8 @@ local function CLPPMUG_fake_script() -- TextLabel.Script
 	
 	
 end
-coroutine.wrap(CLPPMUG_fake_script)()
-local function NVOD_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(DSSB_fake_script)()
+local function JHVXOYL_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -120,14 +120,14 @@ local function NVOD_fake_script() -- TextButton.LocalScript
 		for i,v in pairs(game.Players:GetChildren()) do
 			local BoxOutline = Drawing.new("Square")
 			BoxOutline.Visible = false
-			BoxOutline.Color = Color3.new(0,0,0)
+			BoxOutline.Color = Color3.new(0, 0, 0)
 			BoxOutline.Thickness = 3
 			BoxOutline.Transparency = 1
 			BoxOutline.Filled = false
 	
 			local Box = Drawing.new("Square")
 			Box.Visible = false
-			Box.Color = Color3.new(1,1,1)
+			Box.Color = Color3.new(1, 0, 0.0156863)
 			Box.Thickness = 1
 			Box.Transparency = 1
 			Box.Filled = false
@@ -135,7 +135,7 @@ local function NVOD_fake_script() -- TextButton.LocalScript
 			local HealthBarOutline = Drawing.new("Square")
 			HealthBarOutline.Thickness = 3
 			HealthBarOutline.Filled = false
-			HealthBarOutline.Color = Color3.new(0,0,0)
+			HealthBarOutline.Color = Color3.new(0, 1, 0)
 			HealthBarOutline.Transparency = 1
 			HealthBarOutline.Visible = false
 	
@@ -208,14 +208,14 @@ local function NVOD_fake_script() -- TextButton.LocalScript
 		game.Players.PlayerAdded:Connect(function(v)
 			local BoxOutline = Drawing.new("Square")
 			BoxOutline.Visible = false
-			BoxOutline.Color = Color3.new(0,0,0)
+			BoxOutline.Color = Color3.new(0, 0, 0)
 			BoxOutline.Thickness = 3
 			BoxOutline.Transparency = 1
 			BoxOutline.Filled = false
 	
 			local Box = Drawing.new("Square")
 			Box.Visible = false
-			Box.Color = Color3.new(1,1,1)
+			Box.Color = Color3.new(1, 0, 0.0156863)
 			Box.Thickness = 1
 			Box.Transparency = 1
 			Box.Filled = false
@@ -223,7 +223,7 @@ local function NVOD_fake_script() -- TextButton.LocalScript
 			local HealthBarOutline = Drawing.new("Square")
 			HealthBarOutline.Thickness = 3
 			HealthBarOutline.Filled = false
-			HealthBarOutline.Color = Color3.new(0,0,0)
+			HealthBarOutline.Color = Color3.new(0, 0, 0)
 			HealthBarOutline.Transparency = 1
 			HealthBarOutline.Visible = false
 	
@@ -295,16 +295,16 @@ local function NVOD_fake_script() -- TextButton.LocalScript
 	end)
 	
 end
-coroutine.wrap(NVOD_fake_script)()
-local function KJRH_fake_script() -- TextButton_2.Script 
+coroutine.wrap(JHVXOYL_fake_script)()
+local function WOHWJHF_fake_script() -- TextButton_2.Script 
 	local script = Instance.new('Script', TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(KJRH_fake_script)()
-local function KQZYYV_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(WOHWJHF_fake_script)()
+local function MSPWAP_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -326,7 +326,7 @@ local function KQZYYV_fake_script() -- TextButton_3.LocalScript
 		_G.Sensitivity = 0 -- How many seconds it takes for the aimbot script to officially lock onto the target's aimpart.
 	
 		_G.CircleSides = 64 -- How many sides the FOV circle would have.
-		_G.CircleColor = Color3.fromRGB(255, 255, 255) -- (RGB) Color that the FOV circle would appear as.
+		_G.CircleColor = Color3.fromRGB(52, 255, 249) -- (RGB) Color that the FOV circle would appear as.
 		_G.CircleTransparency = 0.7 -- Transparency of the circle.
 		_G.CircleRadius = 80 -- The radius of the circle / FOV.
 		_G.CircleFilled = false -- Determines whether or not the circle is filled.
@@ -415,8 +415,8 @@ local function KQZYYV_fake_script() -- TextButton_3.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(KQZYYV_fake_script)()
-local function DQBBI_fake_script() -- TextButton_4.Script 
+coroutine.wrap(MSPWAP_fake_script)()
+local function IMZJKS_fake_script() -- TextButton_4.Script 
 	local script = Instance.new('Script', TextButton_4)
 
 	local Frame = script.Parent.Parent.Frame
@@ -425,4 +425,4 @@ local function DQBBI_fake_script() -- TextButton_4.Script
 		Frame.Visible = true
 	end)
 end
-coroutine.wrap(DQBBI_fake_script)()
+coroutine.wrap(IMZJKS_fake_script)()
